@@ -45,9 +45,9 @@
                     <li>
                     <?php
                     if (tep_session_is_registered('customer_id')) {
-                        echo '<a href="'. tep_href_link(FILENAME_LOGOFF, '', 'SSL').'"><span class="glyphicon glyphicon-hand-left"></span> Log Off</a>';
+                        echo 'Welcome'. tep_session_is_registered('customer_id') .', <a href="'. tep_href_link(FILENAME_LOGOFF, '', 'SSL').'"><span class="glyphicon glyphicon-hand-left"></span> Log Off</a>';
                     }else{
-                        echo 'Welcome'. tep_session_is_registered('customer_id') .', <a href="'. tep_href_link(FILENAME_LOGIN, '', 'SSL').'"><span class="glyphicon glyphicon-hand-right"></span> Log In</a>';
+                        echo '<a href="'. tep_href_link(FILENAME_LOGIN, '', 'SSL').'"><span class="glyphicon glyphicon-hand-right"></span> Log In</a>';
                     }   
                     ?>
                     </li>
@@ -63,16 +63,12 @@
 	  <section id="top-banner">
         <div class="page-header" id="banner">
           <div class="row">
-			<div class="col-lg-4 col-md-6 col-sm-12">
+			<div class="col-lg-8 col-md-6 col-sm-12">
               <div class="logo">
               <?php echo '<a href="' . tep_href_link(FILENAME_DEFAULT) . '">' . tep_image(DIR_WS_IMAGES . 'store_logo.png', STORE_NAME, 'img-responsive') . '</a>'; ?>
 			  </div>
             </div>
-		    <div class="col-lg-4 col-md-6 col-sm-12 dell-preferred">
-			  <span class="helper"></span>
-              <?php echo tep_image(DIR_WS_IMAGES . 'dell_partnerdirect_preferred_rgb3.png', 'Dell Preferred Partner', 'img-responsive'); ?>
-		    </div>
-			<div class="col-lg-4 col-md-12 col-sm-12">
+			<div class="col-lg-4 col-md-6 col-sm-12">
 			  <h4 class="pull-right"><span class="glyphicon glyphicon-earphone"></span> CALL US (06) 358 8999 </h4>
 			  <div class="clearfix"></div>
 			  <h5 class="pull-right"><?php echo '<a href="' . tep_href_link(FILENAME_SHOPPING_CART) . '">SHOPPING CART</a>'; ?> <span><?php echo $cart->count_contents() > 0 ? $cart->count_contents() : '0';?> ITEM(S)</span> - <?php echo $currencies->format($cart->show_total());?> <a id="show-cart" class="glyphicon glyphicon-shopping-cart icon-cart"></a></h5>
