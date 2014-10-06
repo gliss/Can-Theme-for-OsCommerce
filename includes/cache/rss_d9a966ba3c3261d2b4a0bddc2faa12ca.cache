@@ -1,0 +1,67 @@
+a:12:{s:8:"encoding";s:5:"UTF-8";s:5:"title";s:18:"osCommerce Add-Ons";s:4:"link";s:25:"http://www.oscommerce.com";s:11:"description";s:29:"osCommerce, Sell With Emotion";s:8:"language";s:2:"en";s:9:"copyright";s:29:"Copyright (c) 2014 osCommerce";s:14:"managingEditor";s:19:"hpdl@oscommerce.com";s:11:"image_title";s:10:"osCommerce";s:9:"image_url";s:53:"http://www.oscommerce.com/images/oscommerce_88x31.gif";s:10:"image_link";s:25:"http://www.oscommerce.com";s:5:"items";a:5:{i:0;a:4:{s:5:"title";s:55:"jQuery/Ajax Advanced Order Handler for osCommerce 2.3.3";s:4:"link";s:38:"http://addons.oscommerce.com/info/9055";s:11:"description";s:2701:"jQuery/Ajax Advanced Order Handler for osCommerce 2.3.3 Rev2<br />
+<br />
+Lots of updates in this Revision. Much of the code has been rewritten to utilize Prepared Statements.<br />
+<br />
+Three new Screenshots included, Enjoy !<br />
+<br />
+ - Using the new HTML5 ProgressEvent interface or AJAX 2 to display a Bootstrap Progress Bar with the real amount of orders updated when batch updating orders.<br />
+<br />
+ - All queries have been converted to MySQLi Prepared Statements for a big Security &amp; Performance increase.<br />
+<br />
+ - New Order Class in Admin added to make use of the performance benefits from using Prepared Statements when querying the database in a loop.<br />
+<br />
+ - Comet / Ajax Long-Polling function remade so now it only polls new orders from stream.php instead of making 2 requests.<br />
+<br />
+ - Add a Product function has been replaced with jQuery Autocomplete.<br />
+<br />
+ - I have improved the jQuery code to use Asynchronous requests together with jQuery.deferred. This will speed up the Ajax requests and make handling appear in a more linear soft kind of way (No page locks).<br />
+<br />
+ - There will now be a lot more Growl Notifications when you update orders etc. I have tried to include JSON Error/Success callbacks from most functions to make Order Handling more like a real Application.<br />
+<br />
+ - More tool tips have been added as requested.<br />
+<br />
+ - It's now possible to sort the orders Ascending/Descending by pressing on the the respective table heading column.<br />
+<br />
+ - The Sort by number of products in order function now works as it should.<br />
+<br />
+ - The Admin Menu now slides out/in by toggling a nice iOS 7 Toggle Switch which gives you 100% window width when working with your orders.<br />
+<br />
+ - The Order Search function has been improved. It now uses Select2 3.4.8 jQuery Add-On with Ajax to suggest orders while typing. Pressing enter after a search term will search as usual, clicking on the suggested order will take you directly to it.<br />
+<br />
+ - Search by Customers name, Delivery name, Billing name, Order Number, Customer Number or E-Mail Address.<br />
+<br />
+ - In addition to the Fixed Bottom Navbar, there is now also a Fixed Top Navbar with the rest of the Drop Downs and Buttons that are necessary to batch control the order.<br />
+<br />
+ - New hidden button that appears over Growl notifications to quickly remove all notifications.<br />
+<br />
+ - New nicer jQuery Windows instead of ugly Javascript Prompts when updating order information.<br />
+<br />
+ - ScrollNav jQuery Plugin to Autohide the Top Navbar when Scrolling the page<br />
+<br />
+ - Lots of Bug Fixes &amp; More!<br />";s:7:"pubDate";s:31:"Mon, 12 May 2014 00:47:07 +0200";}i:1;a:4:{s:5:"title";s:31:"Supertracker 3.5 for OSC 2.3.1.";s:4:"link";s:38:"http://addons.oscommerce.com/info/8056";s:11:"description";s:391:"Since v3.5.2<br />
+----------<br />
+* Updated for OSC 2.3.2 compatibility. (Admin view)<br />
+* Updated the installation and update instructions.<br />
+* Updated version checker path and version info.<br />
+* Updated a admin/supertracker.php texst error.<br />
+* Updated supertracker_setup_db.php Install error (TYPE= to ENGINE=)<br />
+* Added duch language files<br />
+<br />
+* FULL PACKAGE";s:7:"pubDate";s:31:"Sun, 11 May 2014 16:54:29 +0200";}i:2;a:4:{s:5:"title";s:17:"Facebook Like Box";s:4:"link";s:38:"http://addons.oscommerce.com/info/9057";s:11:"description";s:376:"This module will add an InfoBox to your osCommerce store for Facebook Like Box.<br />
+<br />
+This is a configurable box, it allows the following:<br />
+  Adjust Width/Height of the box<br />
+  Show/Hide Posts<br />
+  Show/Hide Border<br />
+  Show/Hide Header<br />
+  Color Scheme Selection<br />
+<br />
+Once installed you simply need to get the APP ID as well as your page URL";s:7:"pubDate";s:31:"Sun, 11 May 2014 04:47:00 +0200";}i:3;a:4:{s:5:"title";s:57:"Credit Class, Gift Vouchers & Discount Coupons osC2.3.3.4";s:4:"link";s:38:"http://addons.oscommerce.com/info/9020";s:11:"description";s:227:"FULL PACKAGE<br />
+<br />
+This download contains the missing language defines in the english/create_account.php file.<br />
+<br />
+The code that was missing was the message that gets sent to a customer upon creating an account.";s:7:"pubDate";s:31:"Sat, 10 May 2014 13:20:03 +0200";}i:4;a:4:{s:5:"title";s:32:"BeezDesk CRM Customer Insight CE";s:4:"link";s:38:"http://addons.oscommerce.com/info/8957";s:11:"description";s:200:"V2.3<br />
+- performance improvements<br />
+- added context when loading viewbeez-modules (e.g. &quot;panel&quot;)<br />
+- gravator user image<br />
+- added RFM information to view_orders module<br />";s:7:"pubDate";s:31:"Fri, 09 May 2014 13:33:04 +0200";}}s:11:"items_count";i:5;}
